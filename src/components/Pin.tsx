@@ -4,13 +4,16 @@ const ICON = `M20.2,15.7L20.2,15.7c1.1-1.6,1.8-3.6,1.8-5.7c0-5.6-4.5-10-10-10S2,
   c0,0,0.1,0.1,0.1,0.2c0.2,0.3,0.4,0.6,0.7,0.9c2.6,3.1,7.4,7.6,7.4,7.6s4.8-4.5,7.4-7.5c0.2-0.3,0.5-0.6,0.7-0.9
   C20.1,15.8,20.2,15.8,20.2,15.7z`;
 
-const pinStyle = {
-  cursor: 'pointer',
-  fill: '#9e2e3d',
-  stroke: 'none'
-};
+function Pin({fill, size = 20}:{fill: string, size?: number}) {
 
-function Pin({size = 20}) {
+  let pinStyle = {
+    cursor: 'pointer',
+    fill: typeof fill === "string"? fill: "red",
+    stroke: 'none',
+    fillOpacity: 0.9
+  };
+
+
   return (
     <svg height={size} viewBox="0 0 24 24" style={pinStyle}>
       <path d={ICON} />
