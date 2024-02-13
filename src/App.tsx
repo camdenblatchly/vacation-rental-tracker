@@ -55,6 +55,7 @@ function App() {
       }),
     []
   );
+  
 
   const waitlist_pins = useMemo(
     () =>
