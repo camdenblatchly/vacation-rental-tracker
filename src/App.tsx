@@ -55,7 +55,7 @@ function App() {
       }),
     []
   );
-  
+
 
   const waitlist_pins = useMemo(
     () =>
@@ -96,6 +96,7 @@ function App() {
         <p>
           Since 1989, the city of Durango has regulated the use of short term rentals. Currently, the city 
           city publishes a list of address with approved permits. I've geocoded that addresses and plotted them below.
+          Take a look
         </p>
       </div>
       <div className="map-container">
