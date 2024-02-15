@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from geopy.geocoders import Nominatim, bing
+from geopy.geocoders import Nominatim
 
 # Load current dataset of short term rentals in Durango
 current_strs_link = "https://docs.google.com/spreadsheets/d/1a6xGTTsSJPV-mqDTFTghqAaY9AYq5Y7OoXLbkJn-_uM/edit#gid=0".replace('/edit#gid=', '/export?format=csv&gid=')
