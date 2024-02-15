@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vacation-rental-tracker/static/css/main.785ab00e.css",
-    "main.js": "/vacation-rental-tracker/static/js/main.4c3ce3cd.js",
+    "main.js": "/vacation-rental-tracker/static/js/main.5bea35af.js",
     "static/js/912.c32e8591.chunk.js": "/vacation-rental-tracker/static/js/912.c32e8591.chunk.js",
     "index.html": "/vacation-rental-tracker/index.html",
     "main.785ab00e.css.map": "/vacation-rental-tracker/static/css/main.785ab00e.css.map",
-    "main.4c3ce3cd.js.map": "/vacation-rental-tracker/static/js/main.4c3ce3cd.js.map",
+    "main.5bea35af.js.map": "/vacation-rental-tracker/static/js/main.5bea35af.js.map",
     "912.c32e8591.chunk.js.map": "/vacation-rental-tracker/static/js/912.c32e8591.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.785ab00e.css",
-    "static/js/main.4c3ce3cd.js"
+    "static/js/main.5bea35af.js"
   ]
 }
