@@ -132,7 +132,7 @@ function App() {
                   <br />
                   Permit number: {popupInfo.Permit_Number}
                   <br />
-                  Property manager: {popupInfo.PropertyManager? popupInfo.PropertyManager: "N/A"}
+                  Property manager: {popupInfo["Property Manager"]? popupInfo["Property Manager"]: "N/A"}
                   <br />
                   Business license: {popupInfo.Business_Lic}
                   <br />
